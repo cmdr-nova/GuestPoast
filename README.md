@@ -140,6 +140,6 @@ You can verify that it's being stored by navigating back to the server hosting t
 ```
 nano comments.json
 ```
-And the test comment you just made on your website should be store inside of this file!
+And the test comment you just made on your website should be stored inside of this file!
 
 Whew! What a journey! But now you have a functional guestbook on your Jekyll blog that doesn't require any outside services aside from a server. And server's can be cheap, especially if you're only using it for a guestbook.
