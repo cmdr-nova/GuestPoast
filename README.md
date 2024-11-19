@@ -97,7 +97,7 @@ server {
 ```
 Voila, now you have a reverse proxy.
 
-Now, you'll need the guestbook comment fetcher and store to be running at all times, so that people can comment, and your website can fetch and display them! So, we'll setup the workers.
+Now, you'll need the guestbook comment fetcher and store to be running at all times, so that people can comment, and your website can fetch and display them! So, we'll setup the service/workers.
 ```
 sudo nano /etc/systemd/system/guestbook.service
 ```
@@ -125,7 +125,7 @@ Then, for good measure, reload Nginx.
 ```
 sudo systemctl reload nginx
 ```
-It's time to set us up the geustbook service and runners.
+It's time to set us up the guestbook service and runners.
 ```
 sudo systemctl start guestbook
 sudo systemctl enable guestbook
