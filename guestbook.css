@@ -158,3 +158,34 @@
   background-color: #585858;
   cursor: not-allowed;
 }
+
+/* Guestbook Button */
+
+.guestbook-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px auto;
+  background-color: #1d1d1d;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.light-mode .guestbook-button {
+  background-color: #d1d1d1;
+  color: #000;
+}
+
+.guestbook-button:hover {
+  background-color: #3f3f3f;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .guestbook-button:hover {
+  background-color: #a1a1a1;
+}
